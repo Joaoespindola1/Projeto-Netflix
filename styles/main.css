@@ -1,0 +1,78 @@
+:root{
+    --preta:#000000;
+    --roxa:#7607e4f5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+header .container{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+header .logo{
+    color: var(--roxa);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color: rgb(238, 238, 238);
+    margin-right: 10px;
+    font-size: 20px;
+}
+header nav{
+    text-decoration:none;
+    margin-left: 100px;
+    margin-top: 23px;
+    color: rgb(218, 218, 218);
+}
+
+header nav a:hover{
+    color: #ffffff;
+}
+.filme-principal{
+    margin-top: 25px;
+
+
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/capa-stranger2.jpg);
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+main .container{
+    margin-left: 15px;
+}
+.titulo{
+    font-size: 40px;
+}
+.descricao{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.botao{
+    font-size: 20px;
+    margin-top: 10px;
+}
