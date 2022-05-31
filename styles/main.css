@@ -18,29 +18,22 @@ a {
 }
 header .container{
     margin-left: 10px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
+    margin-top: 5px;
+    display:flex ;
     border: 1px solid black;
-}
-
-header .logo{
-    color: var(--roxa);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
 }
 
 header nav a{
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration:none;
-    color: rgb(238, 238, 238);
-    margin-right: 10px;
-    font-size: 20px;
+    text-decoration:dashed;
+    color: rgb(212, 211, 211);
+    margin-right: 15px;
+    font-size: 17px;
 }
 header nav{
     text-decoration:none;
     margin-left: 100px;
-    margin-top: 23px;
+    margin-top: 15px;
     color: rgb(218, 218, 218);
 }
 
@@ -48,16 +41,16 @@ header nav a:hover{
     color: #ffffff;
 }
 .filme-principal{
-    margin-top: 25px;
+    margin-top: 5px;
 
 
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/capa-stranger2.jpg);
-    height: 700px;
+    height: 850px;
     background-size: cover;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: flex-start;
 }
 main .container{
@@ -65,14 +58,47 @@ main .container{
 }
 .titulo{
     font-size: 40px;
+    margin-top: 15%;
 }
 .descricao{
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .botao{
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
+    background-color:rgba(0,0,0,.50);
+    border: none;
+    color: #ffffff;
+
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .3s ease all;
 }
+
+.botao:hover{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 25px;
+}
+
+.botao i{
+    margin-right: 6px;
+}
+.but {
+    position: absolute;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel {
+    margin-top: 5px;
+}
+
